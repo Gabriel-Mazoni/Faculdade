@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adicionando links</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            h1{
+                text-align: center;
+                background-color: cornflowerblue;
+            }
+            h1, h2 {
+                color: #333;
+            }
+            a {
+                color: #007BFF;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .LinkLocal {
+                margin-bottom: 20px;
+                padding: 10px;
+                border: 5px solid blue;
+                border-radius: 5px;
+            }
+            .LinkRemoto {
+                margin-bottom: 20px;
+                padding: 10px;
+                border: 5px solid green;
+                border-radius: 5px;
+            }
+            .LinkProprio {
+                margin-bottom: 20px;
+                padding: 10px;
+                border: 5px solid yellow;
+                border-radius: 5px;
+            }
+            .LinkEmail {
+                margin-bottom: 20px;
+                padding: 10px;
+                border: 5px solid purple;
+                border-radius: 5px;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h1>Adicionando links e testando</h1>
+        
+        <div class="LinkLocal">
+        <h2>Link Local</h2>
+        <p>Abaixo segue o link local:</p>
+        <a href="AtvLinkLocal.html">Ir para segunda pagina</a>
+        </div>
+
+        <div class="LinkRemoto">
+        <h2>Link Remoto</h2>
+        <p>Abaixo segue o link remoto:</p>
+        <a href="https://open.spotify.com/collection/tracks" target="_blank" rel="noopener">Ir para o spotify</a>
+        </div>
+
+        <div class="LinkProprio">
+            <h2>Link Para a propria pagina</h2>
+            <p>Abaixo segue o link da propria pagina:</p>
+            <a href="#final">Ir para o final da pagina</a>
+        </div>
+
+        <div class="LinkEmail">
+            <h2>Link Email</h2>
+            <p>Abaixo segue o link do email:</p>
+            <a href="mailto:gabrielmazonijose@gmail.com?subject=Assunto%20do%20E-Mail">Enviar email</a>
+        </div>
+
+
+        <h2 id="final">Final da Página</h2>
+        <p>Você chegou ao final da página!</p>
+    </body>
+    </html>
